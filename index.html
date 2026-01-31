@@ -1,0 +1,815 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- ✅ SEO: troque o domínio/canonical quando publicar -->
+  <link rel="canonical" href="https://www.l3me.com.br/" />
+  <meta name="robots" content="index,follow" />
+
+  <title>L3me — Criação de sites simples e eficientes para pequenos negócios</title>
+  <meta
+    name="description"
+    content="A L3me cria sites e landing pages para comércio local e pequenas empresas. Design limpo, SEO básico e CTA para WhatsApp. Comece a ser encontrado no Google."
+  />
+
+  <!-- Open Graph (Facebook/WhatsApp) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="L3me" />
+  <meta property="og:title" content="L3me — a direção certa para o seu negócio aparecer" />
+  <meta
+    property="og:description"
+    content="Criação de sites simples e eficientes para pequenos e médios negócios, com foco em comércio local. SEO básico, integrações e suporte."
+  />
+  <!-- ✅ SEO: use a URL final do seu site -->
+  <meta property="og:url" content="https://www.l3me.com.br/" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="L3me — Criação de sites para pequenos negócios" />
+  <meta
+    name="twitter:description"
+    content="Sites rápidos e objetivos para comércio local e pequenas empresas. CTA para WhatsApp, formulário e SEO básico."
+  />
+
+  <!-- Favicon SVG (data URI) — versão simplificada do ícone -->
+  <!-- Se preferir, você pode salvar o SVG do favicon em arquivo e apontar aqui. -->
+  <link rel="icon" type="image/svg+xml" href="./assets/rudder.svg" sizes="any" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- JSON-LD: Organization + LocalBusiness (placeholders) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "L3me",
+        "url": "https://www.l3me.com.br/",
+        "email": "contato@l3me.com.br",
+        "telephone": "+55 11 90000-0000"
+      },
+      {
+        "@type": "LocalBusiness",
+        "name": "L3me",
+        "url": "https://www.l3me.com.br/",
+        "email": "contato@l3me.com.br",
+        "telephone": "+55 11 90000-0000",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "São Paulo",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
+        },
+        "areaServed": "São Paulo - SP, Brasil"
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+     <a class="brand" href="#inicio" aria-label="Ir para o início (L3me)">
+        <span class="brand-lockup">
+          <img class="brand-icon" src="assets/rudder.svg" alt="L3me" />
+          <span class="brand-text">
+            <span class="brand-name">L3me</span>
+            <span class="brand-subtitle">direção digital</span>
+          </span>
+        </span>
+      </a>
+      <button
+        class="menu-button"
+        type="button"
+        aria-label="Abrir menu"
+        aria-controls="menu-principal"
+        aria-expanded="false"
+        data-menu-button
+      >
+        <span class="menu-icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="menu-principal" aria-label="Menu principal" data-menu>
+        <ul class="nav-list">
+          <li><a href="#para-quem">Para quem é</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <a class="btn btn-primary btn-wa" href="#" data-wa-link>
+          Falar no WhatsApp
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- 1) HERO -->
+    <section class="section hero" id="inicio" aria-label="Seção principal">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Criação de sites para comércio local e pequenas empresas</p>
+
+          <h1>L3me — a direção certa para o seu negócio aparecer</h1>
+
+          <p class="lead">
+            Criamos <strong>sites simples e eficientes</strong> para pequenos e médios negócios que querem começar a ser
+            encontrados no Google e gerar contatos por <strong>WhatsApp</strong> e formulário — com clareza, velocidade e suporte.
+          </p>
+
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#planos">Ver planos e preços</a>
+            <a class="btn btn-ghost" href="#contato">Pedir um orçamento</a>
+          </div>
+
+          <ul class="trust-row" aria-label="Diferenciais">
+            <li>Sem enrolação: foco em conversão</li>
+            <li>SEO básico bem feito</li>
+            <li>Atualizações conforme o plano</li>
+            <li>Transparência e linguagem simples</li>
+          </ul>
+
+          <p class="microcopy">
+            <strong>Nota realista:</strong> ninguém garante posição no Google. A gente garante base técnica, conteúdo claro e melhorias contínuas.
+          </p>
+        </div>
+
+        <div class="hero-card" aria-label="Resumo do que entregamos">
+          <div class="hero-card-inner">
+            <h2 class="h3">O que você ganha (na prática)</h2>
+            <ul class="checklist">
+              <li>Site rápido, leve e responsivo (mobile-first)</li>
+              <li>Botão fixo de WhatsApp e CTA’s estratégicos</li>
+              <li>Seções essenciais para vender e passar confiança</li>
+              <li>Formulário com validação e mensagem pronta</li>
+              <li>SEO on-page básico (title, meta, headings, schema)</li>
+            </ul>
+
+            <div class="hero-mini">
+              <p class="mini-title">Quer começar hoje?</p>
+              <a class="btn btn-primary btn-block" href="#" data-wa-link data-wa-message="Olá! Quero um site para meu negócio. Podemos conversar?">
+                Chamar no WhatsApp
+              </a>
+              <p class="mini-note">Resposta em horário comercial. <!-- ajuste se quiser --></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA (3 passos) -->
+    <section class="section" id="como-funciona" aria-label="Como funciona">
+      <div class="container">
+        <header class="section-header">
+          <h2>Como funciona (3 passos)</h2>
+          <p class="muted">
+            Um processo leve, do briefing à publicação — ideal para quem toca o próprio negócio e precisa de agilidade.
+          </p>
+        </header>
+
+        <div class="steps">
+          <article class="card step">
+            <h3>1) Briefing objetivo</h3>
+            <p>
+              Entendemos seu serviço, seu bairro/cidade, seus diferenciais e o que você quer que o cliente faça (chamar no WhatsApp, pedir orçamento, agendar).
+            </p>
+          </article>
+
+          <article class="card step">
+            <h3>2) Criação e revisão</h3>
+            <p>
+              Montamos o site com textos claros, seções essenciais e um visual limpo. Você revisa e ajustamos o que for necessário (conforme o plano).
+            </p>
+          </article>
+
+          <article class="card step">
+            <h3>3) Publicação e otimização</h3>
+            <p>
+              Publicamos e deixamos a base pronta para o Google: estrutura, meta tags, performance e boas práticas. Depois, fazemos atualizações contínuas.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2) PARA QUEM É -->
+    <section class="section alt" id="para-quem" aria-label="Para quem é">
+      <div class="container">
+        <header class="section-header">
+          <h2>Para quem é</h2>
+          <p class="muted">
+            A L3me nasceu para atender <strong>pequenos e médios negócios</strong>, com foco inicial em <strong>comércios locais</strong> que precisam ser encontrados
+            com facilidade e transformar visitas em mensagens e pedidos.
+          </p>
+        </header>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Comércio local</h3>
+            <p>Loja de bairro, mercado, boutique, pet shop, papelaria, farmácia, assistência técnica.</p>
+            <p class="muted small">Foco: horário, localização, catálogo simples e WhatsApp.</p>
+          </article>
+
+          <article class="card">
+            <h3>Serviços</h3>
+            <p>Clínicas, profissionais autônomos, oficinas, contabilidade, estética, educação, manutenção.</p>
+            <p class="muted small">Foco: confiança, prova social, formulário e agendamento.</p>
+          </article>
+
+          <article class="card">
+            <h3>Pequenas empresas em crescimento</h3>
+            <p>Negócios que já vendem, mas querem uma presença mais profissional e organizada.</p>
+            <p class="muted small">Foco: páginas extras, estrutura e rotinas de atualização.</p>
+          </article>
+        </div>
+
+        <div class="callout">
+          <p>
+            Procura <strong>criação de sites</strong> com linguagem simples, que funcione para <strong>site para comércio local</strong> e <strong>site para pequenas empresas</strong>?
+            Você está no lugar certo.
+          </p>
+          <a class="btn btn-ghost" href="#contato">Falar com a L3me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3) SERVIÇOS -->
+    <section class="section" id="servicos" aria-label="Serviços">
+      <div class="container">
+        <header class="section-header">
+          <h2>Serviços</h2>
+          <p class="muted">
+            Um pacote enxuto para colocar você no ar rápido — com o essencial bem feito e espaço para evoluir.
+          </p>
+        </header>
+
+        <div class="services">
+          <article class="card service">
+            <h3>Criação de sites institucionais</h3>
+            <p>Site leve, responsivo, com seções pensadas para conversão e confiança.</p>
+            <ul class="bullets">
+              <li>1 a 10 páginas (conforme plano)</li>
+              <li>Estrutura ideal para Google e humanos</li>
+              <li>CTA para WhatsApp e formulário</li>
+            </ul>
+          </article>
+
+          <article class="card service">
+            <h3>Landing pages</h3>
+            <p>Página de campanha, produto ou serviço com foco em contato rápido.</p>
+            <ul class="bullets">
+              <li>Mensagem direta e objetiva</li>
+              <li>Seções enxutas (benefícios, prova social, FAQ)</li>
+              <li>Integração com WhatsApp</li>
+            </ul>
+          </article>
+
+          <article class="card service">
+            <h3>Manutenção e atualizações</h3>
+            <p>Alterações de textos, horários, banners, serviços e ajustes conforme o plano.</p>
+            <ul class="bullets">
+              <li>Rotina de atualização (mensal/semanal)</li>
+              <li>Correções e pequenos ajustes</li>
+              <li>Organização do conteúdo</li>
+            </ul>
+          </article>
+
+          <article class="card service">
+            <h3>SEO básico (on-page)</h3>
+            <p>Base para o Google entender seu negócio e seu contexto local.</p>
+            <ul class="bullets">
+              <li>Titles e metas claros</li>
+              <li>Headings semânticos</li>
+              <li>Schema (Organization/LocalBusiness)</li>
+            </ul>
+          </article>
+
+          <article class="card service">
+            <h3>Integrações essenciais</h3>
+            <p>O básico para facilitar contato e presença local.</p>
+            <ul class="bullets">
+              <li>Link para WhatsApp</li>
+              <li>Link para mapa (Google Maps) <!-- você pode adicionar depois --></li>
+              <li>Formulário com mensagem pronta</li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="microcopy">
+          Precisa de algo além? Podemos evoluir por etapas, sem travar seu negócio com projetos gigantes.
+        </p>
+      </div>
+    </section>
+
+    <!-- 4) PLANOS E PREÇOS -->
+    <section class="section alt" id="planos" aria-label="Planos e preços">
+      <div class="container">
+        <header class="section-header">
+          <h2>Planos e preços</h2>
+          <p class="muted">
+            Preços claros, pensados para <strong>marketing para pequenos negócios</strong>. Você escolhe o ritmo de atualização e a quantidade de páginas.
+          </p>
+        </header>
+
+        <div class="pricing">
+          <article class="card plan">
+            <div class="plan-top">
+              <h3>Plano Partida</h3>
+              <p class="plan-tag">Para começar a aparecer e gerar mensagens</p>
+              <p class="price"><span class="currency">R$</span> 249 <span class="period">/mês</span></p>
+              <p class="small muted">Sem fidelidade (mensal). <!-- ajuste conforme sua política --></p>
+            </div>
+
+            <h4 class="h4">Inclui</h4>
+            <ul class="checklist">
+              <li>1 página (one-page) como este modelo</li>
+              <li>Botão de WhatsApp + formulário</li>
+              <li>SEO básico on-page</li>
+              <li>Publicação (orientação) <!-- depende da hospedagem --></li>
+              <li><strong>Atualizações trimestrais</strong> (até 3 ajustes simples por ciclo)</li>
+            </ul>
+
+            <h4 class="h4">Não inclui</h4>
+            <ul class="bullets">
+              <li>Domínio e hospedagem (podemos orientar)</li>
+              <li>Gestão de anúncios/pago</li>
+              <li>Fotografia profissional</li>
+            </ul>
+
+            <a class="btn btn-primary btn-block" href="#" data-wa-link data-wa-message="Olá! Tenho interesse no Plano Partida (R$ 249/mês). Podemos conversar?">
+              Quero este plano
+            </a>
+          </article>
+
+          <article class="card plan featured" aria-label="Plano recomendado">
+            <div class="badge" aria-hidden="true">Recomendado</div>
+            <div class="plan-top">
+              <h3>Plano Rumo</h3>
+              <p class="plan-tag">Para quem quer estrutura e consistência</p>
+              <p class="price"><span class="currency">R$</span> 449 <span class="period">/mês</span></p>
+              <p class="small muted">Sem fidelidade (mensal). <!-- ajuste conforme sua política --></p>
+            </div>
+
+            <h4 class="h4">Inclui</h4>
+            <ul class="checklist">
+              <li>Até 5 páginas (ex.: Início, Serviços, Sobre, FAQ, Contato)</li>
+              <li>Blog opcional (estrutura básica) <!-- sem prometer volume --></li>
+              <li>SEO básico + ajustes de conteúdo</li>
+              <li><strong>Atualizações mensais</strong> (até 5 ajustes simples/mês)</li>
+              <li>Relatório simples (o que foi atualizado + próximos passos)</li>
+            </ul>
+
+            <h4 class="h4">Não inclui</h4>
+            <ul class="bullets">
+              <li>Produção semanal de conteúdo (podemos planejar)</li>
+              <li>Integrações avançadas (CRM/ERP) <!-- sob orçamento --></li>
+              <li>Gestão de redes sociais</li>
+            </ul>
+
+            <a class="btn btn-primary btn-block" href="#" data-wa-link data-wa-message="Olá! Quero o Plano Rumo (R$ 449/mês). Posso te contar sobre meu negócio?">
+              Quero este plano
+            </a>
+          </article>
+
+          <article class="card plan">
+            <div class="plan-top">
+              <h3>Navegação Pro</h3>
+              <p class="plan-tag">Para crescer com otimização contínua</p>
+              <p class="price"><span class="currency">R$</span> 749 <span class="period">/mês</span></p>
+              <p class="small muted">Sem fidelidade (mensal). <!-- ajuste conforme sua política --></p>
+            </div>
+
+            <h4 class="h4">Inclui</h4>
+            <ul class="checklist">
+              <li>Até 10 páginas (inclui páginas por serviço/região)</li>
+              <li>Otimizações contínuas (estrutura, conteúdo e performance)</li>
+              <li>Prioridade no suporte</li>
+              <li><strong>Atualizações semanais</strong> (até 2 ajustes simples/semana)</li>
+              <li>Rotina de melhorias (backlog + acompanhamento)</li>
+            </ul>
+
+            <h4 class="h4">Não inclui</h4>
+            <ul class="bullets">
+              <li>Campanhas pagas e orçamento de mídia</li>
+              <li>Redação extensa (podemos orçar por volume)</li>
+              <li>Rebrand completo de identidade</li>
+            </ul>
+
+            <a class="btn btn-primary btn-block" href="#" data-wa-link data-wa-message="Olá! Tenho interesse no Navegação Pro (R$ 749/mês). Como funciona a prioridade e as otimizações?">
+              Quero este plano
+            </a>
+          </article>
+        </div>
+
+        <div class="note">
+          <p>
+            <strong>Atualizações conforme o plano</strong> significam ajustes de conteúdo e pequenas melhorias.
+            Mudanças grandes (novo layout completo, muitas páginas novas, integrações complexas) podem ser orçadas à parte com clareza.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5) PORTFÓLIO / CASES -->
+    <section class="section" id="portfolio" aria-label="Portfólio">
+      <div class="container">
+        <header class="section-header">
+          <h2>Portfólio / Cases</h2>
+          <p class="muted">
+            A L3me é nova — então aqui você vê <strong>projetos piloto</strong> e exemplos (fictícios) para ilustrar estilos e estruturas.
+          </p>
+        </header>
+
+        <div class="portfolio">
+          <article class="card project">
+            <div class="project-top">
+              <span class="pill">Exemplo</span>
+              <h3>Padaria do Bairro</h3>
+            </div>
+            <p class="muted small">Site para comércio local com foco em horário, localização e WhatsApp.</p>
+            <ul class="bullets">
+              <li>Seção “Cardápio do dia” (simples)</li>
+              <li>Botão de pedido via WhatsApp</li>
+              <li>Mapa e rota (link)</li>
+            </ul>
+          </article>
+
+          <article class="card project">
+            <div class="project-top">
+              <span class="pill">Exemplo</span>
+              <h3>Oficina Rápida SP</h3>
+            </div>
+            <p class="muted small">Landing page para serviços com prova social e FAQ.</p>
+            <ul class="bullets">
+              <li>Serviços + diferenciais</li>
+              <li>Formulário de orçamento</li>
+              <li>FAQ para reduzir dúvidas</li>
+            </ul>
+          </article>
+
+          <article class="card project">
+            <div class="project-top">
+              <span class="pill">Em construção</span>
+              <h3>Clínica Nova Vida</h3>
+            </div>
+            <p class="muted small">Estrutura multi-páginas com páginas por especialidade (modelo).</p>
+            <ul class="bullets">
+              <li>Páginas por serviço</li>
+              <li>Conteúdo pensado para busca local</li>
+              <li>CTA para agendamento</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="callout">
+          <p>
+            Quer ver um exemplo mais próximo do seu segmento? Conte seu nicho e a gente te mostra uma estrutura sugerida.
+          </p>
+          <a class="btn btn-ghost" href="#" data-wa-link data-wa-message="Olá! Quero ver uma estrutura sugerida para o meu segmento. Posso explicar meu negócio?">
+            Pedir sugestão no WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6) DEPOIMENTOS -->
+    <section class="section alt" id="depoimentos" aria-label="Depoimentos">
+      <div class="container">
+        <header class="section-header">
+          <h2>Depoimentos</h2>
+          <p class="muted">
+            Estamos construindo os primeiros projetos. Abaixo, exemplos de como organizaremos feedbacks reais (marcados como exemplo).
+          </p>
+        </header>
+
+        <div class="testimonials">
+          <figure class="card testimonial">
+            <blockquote>
+              “O site ficou objetivo e os clientes começaram a chamar no WhatsApp com mais clareza do que queriam.”
+            </blockquote>
+            <figcaption class="muted small">— Exemplo de depoimento (em breve depoimentos reais)</figcaption>
+          </figure>
+
+          <figure class="card testimonial">
+            <blockquote>
+              “Gostei da transparência: sem prometer milagre, mas com melhorias contínuas e organização.”
+            </blockquote>
+            <figcaption class="muted small">— Exemplo de depoimento (em breve depoimentos reais)</figcaption>
+          </figure>
+
+          <figure class="card testimonial">
+            <blockquote>
+              “A atualização mensal ajudou muito: trocamos serviços, horários e ajustamos o texto conforme a demanda.”
+            </blockquote>
+            <figcaption class="muted small">— Exemplo de depoimento (em breve depoimentos reais)</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7) FAQ -->
+    <section class="section" id="faq" aria-label="Perguntas frequentes">
+      <div class="container">
+        <header class="section-header">
+          <h2>FAQ — Perguntas frequentes</h2>
+          <p class="muted">Respostas diretas para dúvidas comuns de quem está contratando site pela primeira vez.</p>
+        </header>
+
+        <div class="accordion" data-accordion>
+          <div class="accordion-item">
+            <h3 class="accordion-title">
+              <button class="accordion-button" type="button" aria-expanded="false">
+                Em quanto tempo meu site fica pronto?
+              </button>
+            </h3>
+            <div class="accordion-panel" hidden>
+              <p>
+                Depende do conteúdo e do plano. Em geral, sites de 1 página são mais rápidos.
+                Depois do briefing e do envio de informações (logo, endereço, serviços), seguimos para a primeira versão e revisões.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-title">
+              <button class="accordion-button" type="button" aria-expanded="false">
+                Vocês garantem que vou ficar em primeiro no Google?
+              </button>
+            </h3>
+            <div class="accordion-panel" hidden>
+              <p>
+                Não. Ninguém sério deveria garantir posição. O que fazemos é montar uma base sólida de SEO on-page,
+                performance e estrutura, além de orientar melhorias contínuas para aumentar suas chances ao longo do tempo.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-title">
+              <button class="accordion-button" type="button" aria-expanded="false">
+                Preciso já ter domínio e hospedagem?
+              </button>
+            </h3>
+            <div class="accordion-panel" hidden>
+              <p>
+                Não necessariamente. Se você ainda não tem, a gente orienta quais opções costumam ser mais simples e confiáveis.
+                (O custo de domínio e hospedagem geralmente é pago direto ao provedor.)
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-title">
+              <button class="accordion-button" type="button" aria-expanded="false">
+                O que conta como “atualização” no plano?
+              </button>
+            </h3>
+            <div class="accordion-panel" hidden>
+              <p>
+                Ajustes simples como trocar textos, horários, valores informativos, banners, lista de serviços e pequenas melhorias.
+                Projetos maiores (muitas páginas novas, integrações complexas) são combinados à parte, com transparência.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-title">
+              <button class="accordion-button" type="button" aria-expanded="false">
+                Posso cancelar quando quiser?
+              </button>
+            </h3>
+            <div class="accordion-panel" hidden>
+              <p>
+                Se você optar por modelo mensal sem fidelidade (placeholder), sim: é só avisar com antecedência combinada.
+                Podemos ajustar isso no contrato de forma simples.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8) SOBRE -->
+    <section class="section alt" id="sobre" aria-label="Sobre a L3me">
+      <div class="container about">
+        <div class="about-copy">
+          <header class="section-header">
+            <h2>Sobre a L3me</h2>
+            <p class="muted">
+              “L3me” vem de <strong>leme</strong>: o que dá direção ao barco. A gente acredita que presença digital boa é a que
+              <strong>orienta o cliente</strong> até o contato — sem ruído.
+            </p>
+          </header>
+
+          <p>
+            Muitos pequenos negócios têm Instagram, mas não têm um site que organize informações essenciais:
+            serviços, localização, dúvidas comuns, prova social e um caminho claro para pedir orçamento.
+            A L3me existe para resolver isso com um modelo enxuto, acessível e bem feito.
+          </p>
+
+          <p class="microcopy">
+            Trabalhamos com <strong>clareza</strong>, <strong>prazos realistas</strong> e evolução contínua.
+            Menos “tendência”, mais resultado prático: gente te chamando no WhatsApp e entendendo o que você oferece.
+          </p>
+        </div>
+
+        <div class="about-card card">
+          <h3>Nosso posicionamento</h3>
+          <ul class="checklist">
+            <li>Sites que carregam rápido e comunicam melhor</li>
+            <li>Estrutura pensada para intenção local</li>
+            <li>Preço acessível + suporte contínuo</li>
+            <li>Sem promessas irreais</li>
+          </ul>
+
+          <a class="btn btn-primary btn-block" href="#contato">Quero conversar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9) MISSÃO, VISÃO E VALORES -->
+    <section class="section" id="mvv" aria-label="Missão, visão e valores">
+      <div class="container">
+        <header class="section-header">
+          <h2>Missão, Visão e Valores</h2>
+          <p class="muted">A base que guia nossas decisões e o jeito de trabalhar com pequenos negócios.</p>
+        </header>
+
+        <div class="grid-3">
+          <article class="card">
+            <h3>Missão</h3>
+            <p>
+              Dar direção digital para pequenos e médios negócios com sites simples, eficientes e fáceis de manter —
+              para transformar interesse em contato.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Visão</h3>
+            <p>
+              Ser referência em presença digital enxuta para comércio local, unindo clareza, performance e melhoria contínua
+              — sem complicar a rotina de quem empreende.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Valores</h3>
+            <ul class="bullets">
+              <li>Transparência e comunicação simples</li>
+              <li>Respeito ao tempo e ao caixa do cliente</li>
+              <li>Qualidade técnica com foco no essencial</li>
+              <li>Melhoria contínua, sem prometer milagre</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10) CONTATO -->
+    <section class="section alt" id="contato" aria-label="Contato">
+      <div class="container contact">
+        <header class="section-header">
+          <h2>Contato</h2>
+          <p class="muted">
+            Conte rapidamente sobre seu negócio. Você pode chamar no WhatsApp ou enviar pelo formulário.
+          </p>
+        </header>
+
+        <div class="contact-grid">
+          <div class="card contact-card">
+            <h3>Fale direto</h3>
+            <p class="muted">
+              Mais rápido para tirar dúvidas e alinhar o melhor plano.
+            </p>
+
+            <a class="btn btn-primary btn-block" href="#" data-wa-link data-wa-message="Olá! Quero criar/atualizar um site para meu negócio. Pode me ajudar?">
+              Falar no WhatsApp
+            </a>
+
+            <div class="contact-list">
+              <!-- ✅ Troque os dados abaixo (placeholders) -->
+              <p><strong>E-mail:</strong> <a href="mailto:contato@l3me.com.br">contato@l3me.com.br</a></p>
+              <p><strong>Telefone:</strong> <a href="tel:+5511900000000">+55 11 90000-0000</a></p>
+              <p class="muted small"><strong>Base:</strong> São Paulo - SP, Brasil (placeholder)</p>
+            </div>
+
+            <p class="microcopy">
+              Respeitamos sua privacidade. Use o formulário apenas com informações necessárias. <!-- LGPD: ajuste conforme sua política -->
+            </p>
+          </div>
+
+          <div class="card form-card">
+            <h3>Enviar mensagem</h3>
+
+            <form id="leadForm" novalidate>
+              <div class="field">
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" autocomplete="name" required minlength="2" />
+                <small class="hint">Como podemos te chamar?</small>
+              </div>
+
+              <div class="field">
+                <label for="email">E-mail</label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+                <small class="hint">Para enviarmos a resposta e próximos passos.</small>
+              </div>
+
+              <div class="field">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required minlength="10" placeholder="Ex.: Tenho uma loja no bairro X e quero um site com WhatsApp e horários."></textarea>
+                <small class="hint">Diga seu segmento, cidade/bairro e o que você precisa.</small>
+              </div>
+
+              <button class="btn btn-primary btn-block" type="submit">
+                Enviar mensagem
+              </button>
+
+              <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+
+              <p class="microcopy">
+                Sem backend neste demo: ao enviar, vamos montar uma mensagem e abrir seu e-mail (mailto). Você pode adaptar para um endpoint depois.
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 11) RODAPÉ -->
+  <footer class="site-footer" aria-label="Rodapé">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <p class="footer-title">
+          <img class="footer-logo" src="./assets/rudder.svg" alt="" aria-hidden="true" />
+          <span>L3me</span>
+        </p>
+        <p class="muted small">
+          Sites simples e eficientes para comércio local e pequenas empresas.
+        </p>
+        <p class="muted small">
+          © <span data-year></span> L3me. Todos os direitos reservados.
+        </p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Links do rodapé">
+        <p class="footer-heading">Navegação</p>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-legal">
+        <p class="footer-heading">Políticas</p>
+        <ul>
+          <!-- Placeholders -->
+          <li><a href="#" aria-label="Política de privacidade (placeholder)">Política de Privacidade</a></li>
+          <li><a href="#" aria-label="Termos de uso (placeholder)">Termos de Uso</a></li>
+        </ul>
+        <p class="muted small">
+          Microcopy de confiança: combinamos prazos realistas, escopo claro e comunicação direta — do jeito que pequeno negócio precisa.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <noscript>
+    <div class="noscript">
+      Este site funciona melhor com JavaScript ativado (menu, FAQ e validação do formulário).
+    </div>
+  </noscript>
+
+  <script src="script.js" defer></script>
+
+  <!--
+    ✅ SVG do favicon (versão simplificada) — se quiser salvar como arquivo:
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+      <circle cx="32" cy="32" r="30" fill="#0B1B2E"/>
+      <circle cx="32" cy="32" r="18" fill="none" stroke="#ffffff" stroke-width="4"/>
+      <circle cx="32" cy="32" r="4" fill="#ffffff"/>
+      <g stroke="#ffffff" stroke-width="4" stroke-linecap="round">
+        <line x1="32" y1="10" x2="32" y2="18"/>
+        <line x1="32" y1="46" x2="32" y2="54"/>
+        <line x1="10" y1="32" x2="18" y2="32"/>
+        <line x1="46" y1="32" x2="54" y2="32"/>
+        <line x1="18" y1="18" x2="23" y2="23"/>
+        <line x1="41" y1="41" x2="46" y2="46"/>
+        <line x1="41" y1="23" x2="46" y2="18"/>
+        <line x1="18" y1="46" x2="23" y2="41"/>
+      </g>
+    </svg>
+  -->
+</body>
+</html>
