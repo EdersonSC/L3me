@@ -652,3 +652,54 @@ textarea{ resize: vertical; min-height: 120px; }
   .brand-logo{ width: 170px; }
   .footer-grid{ grid-template-columns: 1fr; }
 }
+
+/* ── Logo Ticker ── */
+.logo-ticker {
+  overflow: hidden;
+  width: 100%;
+  padding: 24px 0;
+  /* fade nas bordas */
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+}
+
+.ticker-track {
+  display: flex;
+  gap: 48px;
+  width: max-content;
+  animation: ticker-scroll 20s linear infinite;
+}
+
+/* Pausa ao passar o mouse */
+.logo-ticker:hover .ticker-track {
+  animation-play-state: paused;
+}
+
+.ticker-item {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.ticker-item:hover {
+  opacity: 1;
+}
+
+.ticker-item img {
+  height: 70px;   /* ajuste conforme seus logos */
+  width: auto;
+  display: block;
+  filter: grayscale(100%);  /* cinza por padrão */
+  transition: filter 0.2s;
+}
+
+.ticker-item:hover img {
+  filter: grayscale(0%);    /* colorido ao hover */
+}
+
+@keyframes ticker-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }  /* -50% porque os itens estão duplicados */
+}

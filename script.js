@@ -11,7 +11,7 @@
 (function () {
   // ====== CONFIG (placeholders) ======
   // ✅ Troque para o número real (somente dígitos, com DDI+DDD): ex. 5511987654321
-  const WHATSAPP_NUMBER = "5511900000000";
+  const WHATSAPP_NUMBER = "5511981375834";
 
   // ✅ Troque para o e-mail real
   const CONTACT_EMAIL = "contato@l3me.com.br";
